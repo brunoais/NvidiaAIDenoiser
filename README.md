@@ -1,11 +1,13 @@
 # NVidia AI Denoiser command line tool
 
 This is a simple implementation of NVidia AI denoiser. You can find a pre-built windows distribution either on my website [here](https://declanrussell.com/portfolio/nvidia-ai-denoiser/) or in the releases tab of this repro. To build you will need to install the CUDA took availible from [here](https://developer.nvidia.com/cuda-downloads) and the OptiX 7.3 SDK availible [here](https://developer.nvidia.com/designworks/optix/download).
-##linux ubuntu 
+## linux ubuntu 
 
-Release Highlights NVIDIA® OptiX™ 6.0.0
+* Release Highlights NVIDIA® OptiX™ 6.0.0
 
-add NVIDIA® OptiX™ to LD_LIBRARY_PATH
+* sudo apt-get install libopenimageio-dev
+
+* add NVIDIA® OptiX™ to LD_LIBRARY_PATH
 export LD_LIBRARY_PATH=/xxx/yyy/NVIDIA-OptiX-SDK-6.0.0-linux64/lib64:$LD_LIBRARY_PATH
 ##update blender python addon
 update exe to linux add 
