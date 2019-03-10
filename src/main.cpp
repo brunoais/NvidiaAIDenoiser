@@ -2,9 +2,8 @@
 #include <optix.h>
 #include <cuda_runtime.h>
 #include <iostream>
-#include <iomanip>
-#include "OpenImageIO\imageio.h"
-#include "OpenImageIO\imagebuf.h"
+#include <OpenImageIO/imageio.h>
+#include <OpenImageIO/imagebuf.h>
 #include <stdio.h>
 #include <exception>
 
